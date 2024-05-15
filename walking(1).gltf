@@ -1,0 +1,69 @@
+{
+    "accessors": [{
+        "bufferView": 0,
+        "byteOffset": 0,
+        "componentType": 5126,
+        "normalized": false,
+        "count": 27,
+        "type": "SCALAR",
+        "max": [1.0333333333333334],
+        "min": [0]
+    }, {
+        "bufferView": 0,
+        "byteOffset": 108,
+        "componentType": 5126,
+        "normalized": false,
+        "count": 27,
+        "type": "VEC3",
+        "max": [2.4760096073150635, 63.1889533996582, 109.8290786743164],
+        "min": [-0.27938759326934814, 57.916847229003906, 1.3214184045791626]
+    }],
+    "animations": [{
+        "channels": [{
+            "sampler": 0,
+            "target": {
+                "node": -1,
+                "path": "translation"
+            }
+        }],
+        "samplers": [{
+            "input": 0,
+            "interpolation": "CUBICSPLINE",
+            "output": 1
+        }],
+        "name": "mixamo.com"
+    }],
+    "asset": {
+        "generator": "Aspose.3D 24.4.1",
+        "version": "2.0"
+    },
+    "buffers": [{
+        "uri": "data:application/octet-stream;base64,AAAAAImICD2JiIg9zcxMPu/ubj6JiIg+mpmZPquqqj68u7s+zczMPt7d3T7v7u4+AAAAPxERET8iIiI/q6oqPzMzMz+8uzs/REREP83MTD9VVVU/3t1dP2ZmZj/v7m4/d3d3PwAAgD9ERIQ/qP1+vUvceEI9JKk/8OM8vioFe0JIYJRA5AuPvrbDe0KwKftARpZ6vs66dEKogadBzJemvU/FcUINM8VBx+dyPoVobkJiROZBxaUMP1MFbEKz4wNC6nxgP4ZPaUIz2hJCGgeUP9qqZ0JnaCBC+EK7PyR7aUKOQy5CA4/fP2z4bUIwlTxCF3j5Px44c0KyskpCwDEIQDQ+eEK5z1hC4ZkWQH3BfEL3x3FCwosdQObjeUICqIVC8XYeQHbudkLVNIxCwOQcQNRrc0JOCJNCt1QWQPEMcEJKCZpCU1YFQKYrbUJPxaFCxbfeP3u0a0ID4KlC9dWuP6WvakJeSrFCAAuEP+uNakLBM7hC/J8nP2jNakLTqr5CL9PMPjSmbULDqcVCHllYPtASckK/Sc1CgHeGPR0LdkLixdRCiP1+vUzceEJ9qNtCAAAAAA==",
+        "byteLength": 436
+    }],
+    "bufferViews": [{
+        "buffer": 0,
+        "byteOffset": 0,
+        "byteLength": 432
+    }],
+    "scene": 0,
+    "scenes": [{}],
+    
+    
+    "nodes": [
+        {
+            "name": "node1",
+            "translation": [0, 0, 0],
+            "rotation": [0, 0, 0, 1],
+            "scale": [1, 1, 1]
+        },
+        {
+            "name": "node2",
+            "translation": [1, 0, 0],
+            "rotation": [0, 0, 0, 1],
+            "scale": [1, 1, 1],
+            "children": [0]
+        }
+    ]
+
+}
